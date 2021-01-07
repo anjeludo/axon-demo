@@ -8,6 +8,6 @@ docker-compose up --build
 ```
 
 ## Test it
-The scenario is simple: place a bowl on a table, fill it with some peanuts and don't let them go bad.
+The scenario is simple: you can create a cart
 
-The command service runs on `http://localhost:8081`, the query service in `http://localhost:8082`.
+The command service runs on `http POST http://localhost:8080/ecommerce/cart <<<'{"id":"237e9877-e79b-12d4-a765-321741963000", "userId":"237e9877-e79b-12d4-a765-321741963000"}'`.
